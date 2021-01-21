@@ -1,0 +1,32 @@
+body,html {
+ 
+  font-family: 'Montserrat', sans-serif;
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;   
+}
+
+.buffer {
+	height: 10rem;
+}
+.btn {
+	font-weight:  700;
+	border-radius:  300px;
+	text-transform: uppercase;
+}
+
+.btn-danger {
+	background-color: #fc0303;
+	border-color: #fc0303;
+}
+.btn-danger:hover {
+	background-color: #c41f1f;
+	border-color: #c41f1f;
+	border-width: 4px;
+}
+
+.btn-xl {
+	padding: 2rem 8rem;
+}
